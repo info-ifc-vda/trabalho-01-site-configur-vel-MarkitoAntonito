@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Plakatbau";
+    src: url("fonts/Plakatbau Regular.otf");
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+
+}
+
+.logo-word {
+
+    width: auto;
+    height: 45px;
+}
+
+.album-name {
+    font-family: "Plakatbau", sans-serif;
+}
+
+.album-info {
+    margin-top: 10px;
+    max-width: 550px;
+    text-align: justify;
+    background-color: lightgrey;
+    margin-left: 100px;
+    padding: 25px;
+}
+
+.album-text-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.album-cover {
+    margin-top: 10px;
+    height: 400px;
+    width: auto;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.informative {
+    background-color: rgba(202, 230, 238);
+}
+
+.navbar {
+    background-color: rgba(81, 161, 214);
+}
+
+.image-gallery {
+    width: 600px;
+    height: 600px;
+
+}
+
+.btn-gallery {
+    width: 100px;
+    height: auto;
+}
+
+.arrows {
+    width: 50px;
+}
+
+.curiosities {
+    background-color: rgba(202, 230, 238);
+}
+
+.btn-track-listing {
+    width: 100px;
+    height: auto;
+}
+
+.track-listing {
+    display: none;
+}
+
+.arrow-accordion {
+    transition: transform 0.6s;
+}
+
+.arrow-flip {
+    transform: rotate(180deg);
+}
+
+.track-listing-header {
+    background-color: rgb(152, 194, 206);
+}
+
+.track-listing ol {
+    margin-left: 550px;
+    text-align: left;
+}
+
+.duration-text {
+    display: none;
+}
+
+.members-list {
+    display: none;
+    margin-left: 550px;
+    text-align: left;    
+}
+
+#musica-13 {
+    display: none;
+}
+
+#membro-5 {
+    display: list-item;
+}
+
+#header1 {
+    background-color: rgb(152, 194, 206);
+}
+
+#header2 {
+    background-color: rgb(152, 194, 206);  
+}
+
+#header3 {
+    background-color: rgb(152, 194, 206); 
+}
+
+.footer {
+    background-color: brown;
+}

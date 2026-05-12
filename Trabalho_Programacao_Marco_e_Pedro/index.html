@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Programação</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+
+      <img src="images/radiohead-logo.png" class="logo me-2 ms-3" id="logo">
+
+      <img src="images/radiohead-word-logo.png" class="logo-word" id="logo-word">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item text-center">
+            <a class="nav-link active ms-5 album-name" id="album">OK COMPUTER</a>
+          </li>
+        </ul>
+
+
+        <button class="btn btn-outline-dark" type="submit" onclick="mudarBanda()">Mudar</button>
+
+      </div>
+  </nav>
+
+  <div class="text-center">
+
+    <div class="m-0 row align-items-start informative py-5" id="informative">
+      <div class="col-6">
+        <div class="album-info">
+          <p class="album-text-title">Sobre o Álbum:</p>
+          <p class="album-text" id="about-album">OK Computer é o terceiro álbum de estúdio da banda britânica Radiohead,
+            sendo lançado em maio de 1997. Diferente de seu álbum predecessor, The Bends, OK Computer traz letras
+            abstratas e temas como distopia, consumismo desenfreado, anticapitalismo, alienação, tecnologia emergente,
+            insanidade e morte. O seu som menos tradicional e mais denso, em camadas, foi um ponto de partida para a
+            mudança radical da banda com seus próximos lançamentos, Kid A e Amnesiac. 'Paranoid Android', 'Karma
+            Police', 'Lucky' e 'No Surprises' foram lançados como singles. É criticamente elogiado até os dias de hoje,
+            recebendo notas altíssimas nas revistas e organizações da época. Foi lançada uma versão remasterizada e com
+            faixas adicionais em 2017, nomeada 'OKNOTOK 1997 2017'.
+          </p>
+        </div>
+      </div>
+      <div class="col-6">
+        <img src="images/okcomputer-ac.jpg" alt="" class="album-cover" id="album-cover">
+      </div>
+    </div>
+
+    <div class="gallery py-5">
+      <button class="btn btn-gallery" onclick="irAnteriorImagem()">
+        <img src="images/left-arrow.png" class="arrows">
+      </button>
+      <img src="images/gallery/ok-computer-gallery-1.jpg" class="image-gallery" id="image-carousel">
+      <button class="btn btn-gallery" onclick="irProximaImagem()">
+        <img src="images/right-arrow.png" class="arrows">
+      </button>
+    </div>
+
+    <div class="curiosities" id="curiosities">
+      <div class="container-fluid d-flex align-items-center justify-content-center track-listing-header" id="header1">
+        <h1>Lista de Músicas</h1>
+        <button class="btn btn-track-listing" onclick="mudarEstadoListaDeMusicas()">
+          <img src="images/down-arrow.png" class="arrows arrow-accordion" id="arrow-accordion1">
+        </button>
+      </div>
+      <div class="track-listing" id="track-listing">
+        <ol>
+          <li id="musica-1">Airbag</li>
+          <li id="musica-2">Paranoid Android</li>
+          <li id="musica-3">Subterranean Homesick Alien</li>
+          <li id="musica-4">Exit Music (For a Film)</li>
+          <li id="musica-5">Let Down</li>
+          <li id="musica-6">Karma Police</li>
+          <li id="musica-7">Fitter Happier</li>
+          <li id="musica-8">Electioneering</li>
+          <li id="musica-9">Climbing Up The Walls</li>
+          <li id="musica-10">No Surprises</li>
+          <li id="musica-11">Lucky</li>
+          <li id="musica-12">The Tourist</li>
+          <li id="musica-13">Luna</li>
+        </ol>
+      </div>
+
+      <div class="container-fluid d-flex align-items-center justify-content-center track-listing-header" id="header2">
+        <h1>Duração</h1>
+        <button class="btn btn-track-listing" onclick="mudarEstadoDuração()">
+          <img src="images/down-arrow.png" class="arrows arrow-accordion" id="arrow-accordion2">
+        </button>
+      </div>
+      <div class="duration">
+        <h1 class="duration-text" id="duration-text">53:21</h1>
+      </div>
+      <div class="container-fluid d-flex align-items-center justify-content-center track-listing-header" id="header3">
+        <h1>Membros Envolvidos</h1>
+        <button class="btn btn-track-listing" onclick="mudarEstadoMembros()">
+          <img src="images/down-arrow.png" class="arrows arrow-accordion" id="arrow-accordion3">
+        </button>
+      </div>
+      <div class="members pb-1">
+        <ul class="members-list" id="members-list">
+          <li id="membro-1">Thom Yorke</li>
+          <li id="membro-2">Jonny Greenwood</li>
+          <li id="membro-3">Colin Greenwood</li>
+          <li id="membro-4">Ed O'Brien</li>
+          <li id="membro-5">Phil Selway</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="footer">
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
